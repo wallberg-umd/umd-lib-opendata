@@ -13,12 +13,11 @@ See also information about our `Research Data Services
 <https://www.lib.umd.edu/data>`_
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
    services
-   technologies
-
+   datasets
+   apis
+   formats
 
 Indices and tables
 ==================

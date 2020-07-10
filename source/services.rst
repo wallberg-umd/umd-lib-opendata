@@ -9,7 +9,7 @@ DRUM
 OAI-PMH
 -------
 
-Open Search
+OpenSearch
 -----------
 
 Digital Collections
