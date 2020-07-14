@@ -1,5 +1,5 @@
-Formats
-=======
+Data Formats
+============
 
 MARCXML
 -------
@@ -7,7 +7,7 @@ MARCXML
 `MARCXML <https://www.loc.gov/standards/marcxml/>`_ is a Library of Congress
 standard XML Schema for encoding MARC 21 data.
 
-Bagit
+BagIt
 -----
 
 From the Wikipedia `BagIt <https://en.wikipedia.org/wiki/BagIt>`_ entry:
@@ -18,7 +18,7 @@ From the Wikipedia `BagIt <https://en.wikipedia.org/wiki/BagIt>`_ entry:
     metadata files intended to document the storage and transfer of the bag. A
     required tag file contains a manifest listing every file in the payload
     together with its corresponding checksum. The name, BagIt, is inspired by
-    the "enclose and deposit" method,[1] sometimes referred to as "bag it and
+    the "enclose and deposit" method, sometimes referred to as "bag it and
     tag it".
 
 The full specification is available in `RFC 8493
