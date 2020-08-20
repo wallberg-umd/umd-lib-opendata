@@ -5,18 +5,10 @@ import json
 
 ENDPOINT = 'https://geo.btaa.org/catalog.json'
 
-
-''' Search BTAA Geoportal using JSON OpenSearch, using named parameters '''
-
-# Build the URL
-
 # Contributing institution is University of Maryland
 params = {'f[dct_provenance_s][]': "Maryland"}
 
 search_url = ENDPOINT + '?' + urllib.parse.urlencode(params)
-
-print('\n========================')
-print(f'Search URL: {search_url}')
 
 # Get search results as parsed XML
 with urllib.request.urlopen(search_url) as request:
@@ -34,4 +26,3 @@ with urllib.request.urlopen(search_url) as request:
         print('----')
         print(f'Title: {title}')
         print(f'Link:  {link}')
-
