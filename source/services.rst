@@ -3,7 +3,7 @@ Services
 
 List of services, with their technologies, endpoints, and examples
 
-Digital Repository at the University of Maryland (DRUM)
+DRUM
 =======================================================
 
 The `Digital Repository at the University of Maryland (DRUM)
