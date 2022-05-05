@@ -55,3 +55,12 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 html_logo = 'liblogo.png'
+
+language = 'en'
+
+highlight_language ='none'
+
+html_theme_options = {
+    'anchor': '#3E4349',
+    'footer_text': '#3E4349',
+}

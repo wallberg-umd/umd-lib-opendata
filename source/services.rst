@@ -17,7 +17,7 @@ OAI-PMH
 
 Some example code for OAI-PMH.
 
-.. code-block:: python3
+::
 
     for collection in c.get_collections()
         print(collection.title)
@@ -71,7 +71,7 @@ Example: The RSS+XML and JSON endpoints operate using the same set of URL parame
 used by the website interface, eg these curl commands return the same
 result set:
 
-.. code-block:: bash
+::
 
     PARAMS='utf8=%E2%9C%93&f1=all_fields&q1=&op2=AND&f2=publisher&q2=&op3=AND&f3=title&q3=&f_inclusive%5Bdct_provenance_s%5D%5B%5D=Maryland&range%5Bsolr_year_i%5D%5Bbegin%5D=&range%5Bsolr_year_i%5D%5Bend%5D=&sort=score+desc%2C+dc_title_sort+asc&search_field=advanced&commit=Search'
 
