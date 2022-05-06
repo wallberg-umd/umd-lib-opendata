@@ -15,12 +15,17 @@ long-term preservation.
 OAI-PMH
 -------
 
-Some example code for OAI-PMH.
+Endpoint: ``https://drum.lib.umd.edu/oai/request``
+
+Example:
 
 ::
 
-    for collection in c.get_collections()
-        print(collection.title)
+    curl "https://drum.lib.umd.edu/oai/request?verb=Identify"
+
+    curl "https://drum.lib.umd.edu/oai/request?verb=ListSets"
+
+    curl "https://drum.lib.umd.edu/oai/request?verb=ListMetadataFormats"
 
 OpenSearch
 -----------
@@ -34,17 +39,48 @@ Example: :download:`drum-search.py <code/drum-search.py>`
 Digital Collections
 ===================
 
+`University of Maryland Libraries' Digital Collections <https://digital.lib.umd.edu>`_
+
 OAI-PMH
 -------
 
-LDP / RDF
----------
+Endpoint: ``https://digital.lib.umd.edu/oaicat/OAIHandler``
 
-Libraries' Website
-==================
+Example:
 
-schema.org
-----------
+::
+
+    curl "https://digital.lib.umd.edu/oaicat/OAIHandler?verb=Identify"
+
+    curl "https://digital.lib.umd.edu/oaicat/OAIHandler?verb=ListSets"
+
+    curl "https://digital.lib.umd.edu/oaicat/OAIHandler?verb=ListMetadataFormats"
+
+Digital Collections Audio/Video
+===============================
+
+`University of Maryland Libraries' Digital Collections Audio/Video Content <https://av.lib.umd.edu>`_
+
+OpenSearch
+-----------
+
+OpenSearch Description: `<https://av.lib.umd.edu/catalog/opensearch.xml>`_
+
+JSON Endpoint: `<https://av.lib.umd.edu/catalog.json>`_
+
+Example:
+
+::
+
+    PARAMS='search_field=all_fields&q=athletics'
+
+    curl "https://av.lib.umd.edu/catalog?$PARAMS"
+
+    curl "https://av.lib.umd.edu/catalog.rss?$PARAMS"
+
+Example: :download:`digital-collections-av-search.py <code/digital-collections-av-search.py>`
+
+.. literalinclude:: code/digital-collections-av-search.py
 
 BTAA Geoportal
 =======================================================

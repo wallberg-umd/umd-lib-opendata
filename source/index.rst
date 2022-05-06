@@ -15,9 +15,8 @@ See also information about our `Research Data Services
 .. toctree::
 
    services
-   datasets
    apis
-   formats
+   datasets
 
 Indices and tables
 ==================
