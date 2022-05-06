@@ -5,8 +5,11 @@ import json
 
 ENDPOINT = 'https://geo.btaa.org/catalog.json'
 
-# Contributing institution is University of Maryland
-params = {'f[dct_provenance_s][]': "Maryland"}
+# Keyword query on 'Maryland'
+params = {
+    "search_field": "all_fields",
+    "q": "maryland",
+}
 
 search_url = ENDPOINT + '?' + urllib.parse.urlencode(params)
 
@@ -19,7 +22,7 @@ with urllib.request.urlopen(search_url) as request:
         link = item['links']['self']
 
         if 'attributes' in item:
-            title = item['attributes']['dc_description_s']['attributes']['value']
+            title = item['attributes']['dct_description_sm']['attributes']['value']
         else:
             title = "??"
 

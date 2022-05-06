@@ -73,7 +73,7 @@ result set:
 
 ::
 
-    PARAMS='utf8=%E2%9C%93&f1=all_fields&q1=&op2=AND&f2=publisher&q2=&op3=AND&f3=title&q3=&f_inclusive%5Bdct_provenance_s%5D%5B%5D=Maryland&range%5Bsolr_year_i%5D%5Bbegin%5D=&range%5Bsolr_year_i%5D%5Bend%5D=&sort=score+desc%2C+dc_title_sort+asc&search_field=advanced&commit=Search'
+    PARAMS='search_field=all_fields&q=maryland'
 
     curl "https://geo.btaa.org/catalog?$PARAMS"
 
