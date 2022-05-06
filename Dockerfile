@@ -1,9 +1,9 @@
-FROM sphinxdoc/sphinx as makehtml
+FROM sphinxdoc/sphinx:4.5.0 as makehtml
 
 WORKDIR /docs
 COPY source source
 COPY Makefile .
 RUN make html
 
-FROM nginx:1.19.1
+FROM nginx:1.20
 COPY --from=makehtml /docs/build/html /usr/share/nginx/html
