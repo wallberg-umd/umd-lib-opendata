@@ -1,5 +1,14 @@
 {% extends '!layout.html' %}
 
+{%- block sidebarlogo %}
+{%- if logo_url %}
+  <p class="logo"><a href="https://www.lib.umd.edu/">
+    <img class="logo" src="{{ logo_url|e }}" alt="Logo"/>
+  </a></p>
+{%- endif %}
+{%- endblock %}
+
+
 {% block footer %}
     <div class="footer">
         <a href="https://giving.umd.edu/giving/showSchool.php?name=libraries">Give Now</a>
@@ -8,6 +17,6 @@
         |
         <a href="https://www.umd.edu/web-accessibility">Web Accessibility</a>
         |
-        Ⓒ 2022 UNIVERSITY OF MARYLAND
+        &copy; {{ copyright|e }}
     </div>
 {% endblock %}

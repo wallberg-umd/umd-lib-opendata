@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'umd-lib-opendata'
-copyright = '2020, University of Maryland Libraries'
+project = 'Open Data'
+copyright = '2022, University of Maryland Libraries'
 author = 'University of Maryland Libraries'
 
 # The full version, including alpha/beta/rc tags
