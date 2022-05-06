@@ -27,9 +27,9 @@ OpenSearch
 
 Endpoint: ``https://drum.lib.umd.edu/open-search/discover``
 
-Example: :download:`drum-search.py <drum-search.py>`
+Example: :download:`drum-search.py <code/drum-search.py>`
 
-.. literalinclude:: drum-search.py
+.. literalinclude:: code/drum-search.py
 
 Digital Collections
 ===================
@@ -81,7 +81,7 @@ result set:
 
     curl "https://geo.btaa.org/catalog.json?$PARAMS"
 
-Example: :download:`geoportal-search.py <geoportal-search.py>`
+Example: :download:`geoportal-search.py <code/geoportal-search.py>`
 
-.. literalinclude:: geoportal-search.py
+.. literalinclude:: code/geoportal-search.py
 
