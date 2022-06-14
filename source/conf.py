@@ -60,7 +60,7 @@ html_css_files = [
     'css/custom.css',
 ]
 
-html_logo = 'assets/img/liblogo.png'
+html_logo = 'assets/img/liblogo.svg'
 
 language = 'en'
 
