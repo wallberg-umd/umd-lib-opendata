@@ -9,8 +9,8 @@ University of Maryland Libraries Open Data
 Documentation for `open data <https://en.wikipedia.org/wiki/Open_data>`_
 provided by the UMD Libraries.
 
-See also information about our `Research Data Services
-<https://www.lib.umd.edu/data>`_
+See also information about our `Data Services
+<https://www.lib.umd.edu/research/data>`_
 
 .. toctree::
 
