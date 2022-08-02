@@ -48,6 +48,11 @@ html_domain_indices = False
 # Suppress empty genindex.html
 html_use_index = False
 
+html_extra_path = [
+    'robots.txt',
+    'favicon.ico',
+]
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
