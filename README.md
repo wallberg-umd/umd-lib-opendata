@@ -1,5 +1,6 @@
 # umd-lib-opendata
-Experimental: Sphinx technical documentation for University of Maryland Libraries Open Data
+
+University of Maryland Libraries Open Data Website, built using the [Sphinx](https://www.sphinx-doc.org/en/master/) documentation builder.
 
 ## Building
 
