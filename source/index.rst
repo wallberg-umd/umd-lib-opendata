@@ -17,10 +17,3 @@ See also information about our `Data Services
    services
    apis
    datasets
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

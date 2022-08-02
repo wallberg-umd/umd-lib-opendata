@@ -42,6 +42,11 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# Suppress empty modindex.html
+html_domain_indices = False
+
+# Suppress empty genindex.html
+html_use_index = False
 
 # -- Options for HTML output -------------------------------------------------
 
