@@ -6,7 +6,7 @@ Experimental: Sphinx technical documentation for University of Maryland Librarie
 You can build the static website yourself:
 
 ``` bash
-pip install -U sphinx
+pip install -U sphinx sphinx-sitemap
 make html
 open build/html/index.html
 ```

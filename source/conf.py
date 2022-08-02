@@ -31,6 +31,7 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_sitemap',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -70,3 +71,9 @@ html_theme_options = {
     'anchor': '#3E4349',
     'footer_text': '#3E4349',
 }
+
+# -- Options for sitemap extension -------------------------------------------
+
+html_baseurl = 'https://opendata.lib.umd.edu'
+
+sitemap_url_scheme = "{link}"
