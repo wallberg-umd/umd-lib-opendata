@@ -36,6 +36,12 @@ Example: :download:`drum-search.py <code/drum-search.py>`
 
 .. literalinclude:: code/drum-search.py
 
+Additional Examples:
+
+- :download:`drum-harvest-metadata.py <code/drum-harvest-metadata.py>` Harvest metadata for every item in DRUM.
+- :download:`drum-harvest-files.py <code/drum-harvest-files.py>` Harvest files for every item in DRUM.
+
+
 Digital Collections
 ===================
 
