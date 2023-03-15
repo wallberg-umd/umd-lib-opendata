@@ -27,6 +27,11 @@ Example:
 
     curl "https://drum.lib.umd.edu/oai/request?verb=ListMetadataFormats"
 
+Additional Examples:
+
+- :download:`drum-oaipmh.py <code/drum-oaipmh.py>` Use OAI-PMH to harvest metadata in DRUM.
+
+
 OpenSearch
 -----------
 
