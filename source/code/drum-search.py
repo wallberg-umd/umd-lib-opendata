@@ -7,6 +7,7 @@ from xml.etree import ElementTree
 
 ENDPOINT = 'https://drum.lib.umd.edu/open-search/discover'
 
+
 def search(**params):
     ''' Search DRUM using OpenSearch, using named parameters '''
 
@@ -34,13 +35,15 @@ def search(**params):
             print(f'Author:     {author}')
             print(f'Handle URL: {handle_url}')
 
+
 # phrase is "Black Lives Matter"
 search(query='"Black Lives Matter"')
+
 
 # advisor is smela
 # collection is 1903/2795 (Mechanical Engineering ETDs)
 search(query='advisor:smela', scope='1903/2795')
 
+
 # community is 1903/2278 (Library Staff Research Works)
 search(query='*:*', scope='1903/2278')
-

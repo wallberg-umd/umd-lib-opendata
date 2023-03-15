@@ -78,7 +78,7 @@ if __name__ == "__main__":
     for item in yaml.safe_load_all(sys.stdin):
 
         url = item['handle_url']
-        title = item['title'].replace('\n', '').replace('\r','')
+        title = item['title'].replace('\n', '').replace('\r', '')
         print(f'{url}: {title}')
 
         harvest(url)

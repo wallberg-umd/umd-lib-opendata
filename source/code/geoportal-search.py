@@ -24,7 +24,7 @@ with urllib.request.urlopen(search_url) as request:
         link = item['links']['self']
 
         if ('attributes' in item
-            and 'dct_description_sm' in item['attributes']):
+           and 'dct_description_sm' in item['attributes']):
 
             title = item['attributes']['dct_description_sm']['attributes']['value']
 
