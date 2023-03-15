@@ -22,7 +22,7 @@ open 'http://localhost:8080'
 
 ## Python Environment
 
-Setup a Python environment to assist in building the static website or running the code examples, using pyenv and venv.
+Setup a Python environment to assist in building the static website or running the [code examples](source/code), using pyenv and venv.
 
 ```bash
 # Setup the Python version
@@ -32,7 +32,7 @@ pyenv install --skip-existing $(cat .python-version)
 python -m venv .venv
 source .venv/bin/activate
 
-# Install the requirements and setup any script entry points
+# Install the requirements
 pip install -r requirements.txt
 ```
 
