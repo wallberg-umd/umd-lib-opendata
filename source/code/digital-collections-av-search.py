@@ -21,10 +21,9 @@ with urllib.request.urlopen(search_url) as request:
     response = json.loads(request.read())
 
     # Iterate over the returned items
-    for item in response['response']['docs']:
-        link = BASE + "media_objects/" + item['id']
-
-        title = item['title_tesi']
+    for item in response['data']:
+        link = item['links']['self']
+        title = item['attributes']['title_tesi']['attributes']['value']
 
         print('----')
         print(f'Title: {title}')
