@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Open Data'
-copyright = '2022, University of Maryland Libraries'
+copyright = '2023, University of Maryland Libraries'
 author = 'University of Maryland Libraries'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '1.0.7'
 
 
 # -- General configuration ---------------------------------------------------
