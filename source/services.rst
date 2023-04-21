@@ -107,9 +107,9 @@ OpenSearch
 
 OpenSearch Description: `<https://geo.btaa.org/catalog/opensearch.xml>`_
 
-RSS+XML Endpoint: `<https://geo.btaa.org/catalog.rss>`_
+RSS+XML Endpoint: `<https://geo.btaa.org/?format=rss>`_
 
-JSON Endpoint: `<https://geo.btaa.org/catalog.json>`_
+JSON Endpoint: `<https://geo.btaa.org/?format=json>`_
 
 The OpenSearch API is not officially documented by the
 `Geoportal Documentation page <https://sites.google.com/umn.edu/btaa-gdp/about/documentation>`_.
@@ -120,13 +120,11 @@ result set:
 
 ::
 
-    PARAMS='search_field=all_fields&q=maryland'
+    curl "https://geo.btaa.org/?search_field=all_fields&q=maryland"
 
-    curl "https://geo.btaa.org/catalog?$PARAMS"
+    curl "https://geo.btaa.org/?search_field=all_fields&q=maryland&format=rss"
 
-    curl "https://geo.btaa.org/catalog.rss?$PARAMS"
-
-    curl "https://geo.btaa.org/catalog.json?$PARAMS"
+    curl "https://geo.btaa.org/?search_field=all_fields&q=maryland&format=json"
 
 Example: :download:`geoportal-search.py <code/geoportal-search.py>`
 

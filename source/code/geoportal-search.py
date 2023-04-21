@@ -5,16 +5,19 @@ import json
 
 # Search BTAA Geoportal using JSON OpenSearch
 
-ENDPOINT = 'https://geo.btaa.org/catalog.json'
+ENDPOINT = 'https://geo.btaa.org/'
 
 # Keyword query on 'Maryland'
 params = {
     "search_field": "all_fields",
     "q": "maryland",
+    "format": "json",
 }
 
-search_url = ENDPOINT + '?' + urllib.parse.urlencode(params)
+# https://geo.btaa.org/?search_field=all_fields&q=maryland&format=json
 
+search_url = ENDPOINT + '?' + urllib.parse.urlencode(params)
+print(search_url)
 # Get search results as parsed XML
 with urllib.request.urlopen(search_url) as request:
     response = json.loads(request.read())
