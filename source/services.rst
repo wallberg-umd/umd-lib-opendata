@@ -15,17 +15,17 @@ long-term preservation.
 OAI-PMH
 -------
 
-Endpoint: ``https://drum.lib.umd.edu/oai/request``
+Endpoint: ``https://api.drum.lib.umd.edu/server/oai/request``
 
 Example:
 
 ::
 
-    curl "https://drum.lib.umd.edu/oai/request?verb=Identify"
+    curl "https://api.drum.lib.umd.edu/server/oai/request?verb=Identify"
 
-    curl "https://drum.lib.umd.edu/oai/request?verb=ListSets"
+    curl "https://api.drum.lib.umd.edu/server/oai/request?verb=ListSets"
 
-    curl "https://drum.lib.umd.edu/oai/request?verb=ListMetadataFormats"
+    curl "https://api.drum.lib.umd.edu/server/oai/request?verb=ListMetadataFormats"
 
 Additional Examples:
 
@@ -35,7 +35,7 @@ Additional Examples:
 OpenSearch
 -----------
 
-Endpoint: ``https://drum.lib.umd.edu/open-search/discover``
+Endpoint: ``https://api.drum.lib.umd.edu/server/opensearch/search``
 
 Example: :download:`drum-search.py <code/drum-search.py>`
 
@@ -46,6 +46,15 @@ Additional Examples:
 - :download:`drum-harvest-metadata.py <code/drum-harvest-metadata.py>` Harvest metadata for every item in DRUM.
 - :download:`drum-harvest-files.py <code/drum-harvest-files.py>` Harvest files for every item in DRUM.
 
+DSpace REST API
+-----------------
+
+Endpoint: ``https://api.drum.lib.umd.edu/server/api``
+
+The endpoint is explorable using the `HAL <http://stateless.co/hal_specification.html>`_
+Browser at `<https://api.drum.lib.umd.edu/server>`_.
+
+.. literalinclude:: code/drum-api.py
 
 Digital Collections
 ===================
