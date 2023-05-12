@@ -41,11 +41,6 @@ Example: :download:`drum-search.py <code/drum-search.py>`
 
 .. literalinclude:: code/drum-search.py
 
-Additional Examples:
-
-- :download:`drum-harvest-metadata.py <code/drum-harvest-metadata.py>` Harvest metadata for every item in DRUM.
-- :download:`drum-harvest-files.py <code/drum-harvest-files.py>` Harvest files for every item in DRUM.
-
 DSpace REST API
 -----------------
 
@@ -55,6 +50,10 @@ The endpoint is explorable using the `HAL <http://stateless.co/hal_specification
 Browser at `<https://api.drum.lib.umd.edu/server>`_.
 
 .. literalinclude:: code/drum-api.py
+
+Additional Example:
+
+- :download:`drum-harvest.py <code/drum-harvest.py>` Harvest metadata and files for every item in DRUM.
 
 Digital Collections
 ===================
