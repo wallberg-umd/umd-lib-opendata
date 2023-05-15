@@ -16,8 +16,14 @@ with urllib.request.urlopen(items_url) as request:
     # Iterate over the returned items
     for item in response['_embedded']['items']:
         md = item['metadata']
-        link = ", ".join(entry['value'] for entry in md['dc.identifier.uri'])
-        title = "; ".join(entry['value'] for entry in md['dc.title'])
+        if 'dc.identifier.uri' in md:
+            link = "; ".join(entry['value'] for entry in md['dc.identifier.uri'])
+        else:
+            link = "n/a"
+        if 'dc.title' in md:
+            title = "; ".join(entry['value'] for entry in md['dc.title'])
+        else:
+            title = "n/a"
 
         print('----')
         print(f'Title: {title}')
