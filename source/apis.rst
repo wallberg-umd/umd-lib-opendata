@@ -30,3 +30,9 @@ entry:
 
 For more information see the `OpenSearch specification
 <https://github.com/dewitt/opensearch>`_.
+
+DSpace REST API
+---------------
+
+DSpace REST API, first introduced in DSpace version 7. For more information see
+`DSpace 7 REST API <https://wiki.lyrasis.org/display/DSPACE/DSpace+7+REST+API>`_.

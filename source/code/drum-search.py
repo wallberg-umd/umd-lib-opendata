@@ -5,7 +5,7 @@ from xml.etree import ElementTree
 
 # Search DRUM using OpenSearch
 
-ENDPOINT = 'https://drum.lib.umd.edu/open-search/discover'
+ENDPOINT = 'https://api.drum.lib.umd.edu/server/opensearch/search'
 
 
 def search(**params):

@@ -3,7 +3,7 @@
 from oaipmh.client import Client
 from oaipmh.metadata import MetadataRegistry, oai_dc_reader
 
-ENDPOINT = 'https://drum.lib.umd.edu/oai/request'
+ENDPOINT = 'https://api.drum.lib.umd.edu/server/oai/request'
 
 registry = MetadataRegistry()
 registry.registerReader('oai_dc', oai_dc_reader)
