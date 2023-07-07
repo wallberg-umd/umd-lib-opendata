@@ -21,6 +21,8 @@ Example:
 
 ::
 
+    #!/bin/bash
+
     curl "https://api.drum.lib.umd.edu/server/oai/request?verb=Identify"
 
     curl "https://api.drum.lib.umd.edu/server/oai/request?verb=ListSets"
@@ -69,6 +71,8 @@ Example:
 
 ::
 
+    #!/bin/bash
+
     curl "https://digital.lib.umd.edu/oaicat/OAIHandler?verb=Identify"
 
     curl "https://digital.lib.umd.edu/oaicat/OAIHandler?verb=ListSets"
@@ -90,6 +94,8 @@ JSON Endpoint: `<https://av.lib.umd.edu/catalog.json>`_
 Example:
 
 ::
+
+    #!/bin/bash
 
     PARAMS='search_field=all_fields&q=athletics'
 
@@ -127,6 +133,8 @@ used by the website interface, eg these curl commands return the same
 result set:
 
 ::
+
+    #!/bin/bash
 
     curl "https://geo.btaa.org/?search_field=all_fields&q=maryland"
 
