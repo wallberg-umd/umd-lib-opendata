@@ -146,3 +146,16 @@ Example: :download:`geoportal-search.py <code/geoportal-search.py>`
 
 .. literalinclude:: code/geoportal-search.py
 
+Internet Archive
+================
+
+`Internet Archive <https://archive.org>`_ is a non-profit library of millions of free books, movies, software, music, websites, and more, which includes a `University of Maryland, College Park <https://archive.org/details/university_maryland_cp>`_ collection.
+
+Advanced Search
+---------------
+
+Endpoint: `<https://archive.org/advancedsearch.php>`_
+
+Example: :download:`code/internet-archive-search.py <code/internet-archive-search.py>`
+
+.. literalinclude:: code/internet-archive-search.py
