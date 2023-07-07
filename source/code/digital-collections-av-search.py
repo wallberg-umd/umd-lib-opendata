@@ -16,7 +16,7 @@ params = {
 
 search_url = ENDPOINT + '?' + urllib.parse.urlencode(params)
 
-# Get search results as parsed XML
+# Get search results as parsed JSON
 with urllib.request.urlopen(search_url) as request:
     response = json.loads(request.read())
 
