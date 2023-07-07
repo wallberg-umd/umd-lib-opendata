@@ -75,11 +75,20 @@ html_logo = 'assets/img/liblogo.svg'
 
 language = 'en'
 
-highlight_language ='none'
+highlight_language = 'none'
 
 html_theme_options = {
     'anchor': '#3E4349',
     'footer_text': '#3E4349',
+}
+
+html_sidebars = {
+   '**': [
+      'about.html',
+      'navigation.html',
+      'searchbox.html',
+      'external_links.html',
+    ],
 }
 
 # -- Options for sitemap extension -------------------------------------------
