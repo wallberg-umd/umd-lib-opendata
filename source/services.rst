@@ -82,6 +82,9 @@ Additional Examples:
 
 - :download:`digital-collections-legacy-oaipmh.py <code/digital-collections-legacy-oaipmh.py>` Use OAI-PMH to harvest metadata in Digital Collections.
 
+.. Remove this anchor when "Digital Collections (New Repository)" is renamed back to "Digital Collections"
+.. _Digital Collections:
+
 Digital Collections (New Repository)
 ====================================
 
