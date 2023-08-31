@@ -33,7 +33,6 @@ Additional Examples:
 
 - :download:`drum-oaipmh.py <code/drum-oaipmh.py>` Use OAI-PMH to harvest metadata in DRUM.
 
-
 OpenSearch
 -----------
 
@@ -57,8 +56,8 @@ Additional Example:
 
 - :download:`drum-harvest.py <code/drum-harvest.py>` Harvest metadata and files for every item in DRUM.
 
-Digital Collections
-===================
+Digital Collections (Legacy Repository)
+=======================================
 
 `University of Maryland Libraries' Digital Collections <https://digital.lib.umd.edu>`_
 
@@ -78,6 +77,36 @@ Example:
     curl "https://digital.lib.umd.edu/oaicat/OAIHandler?verb=ListSets"
 
     curl "https://digital.lib.umd.edu/oaicat/OAIHandler?verb=ListMetadataFormats"
+
+Additional Examples:
+
+- :download:`digital-collections-legacy-oaipmh.py <code/digital-collections-legacy-oaipmh.py>` Use OAI-PMH to harvest metadata in Digital Collections.
+
+Digital Collections (New Repository)
+====================================
+
+`University of Maryland Libraries' Digital Collections <https://digital.lib.umd.edu>`_
+
+OAI-PMH
+-------
+
+Endpoint: ``https://api.fcrepo.lib.umd.edu/oai/api``
+
+Example:
+
+::
+
+    #!/bin/bash
+
+    curl "https://api.fcrepo.lib.umd.edu/oai/api?verb=Identify"
+
+    curl "https://api.fcrepo.lib.umd.edu/oai/api?verb=ListSets"
+
+    curl "https://api.fcrepo.lib.umd.edu/oai/api?verb=ListMetadataFormats"
+
+Additional Examples:
+
+- :download:`digital-collections-oaipmh.py <code/digital-collections-oaipmh.py>` Use OAI-PMH to harvest metadata in Digital Collections.
 
 Digital Collections Audio/Video
 ===============================
